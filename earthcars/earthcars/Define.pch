@@ -1,0 +1,47 @@
+//
+//  Define.pch
+//  earthcars
+//
+//  Created by qianfeng on 15/7/4.
+//  Copyright (c) 2015年 韩世民. All rights reserved.
+//
+
+#ifndef earthcars_Define_pch
+#define earthcars_Define_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define kScreenSize [UIScreen mainScreen].bounds.size
+
+#define firstPage @"http://mrobot.pcauto.com.cn/v2/cms/channels/1?pageNo=%ld&pageSize=20"
+#define newCar @"http://mrobot.pcauto.com.cn/v2/cms/channels/2?pageNo=%ld&pageSize=20"
+#define Market @"http://mrobot.pcauto.com.cn/v2/cms/channels/55555?pageNo=%ld&pageSize=20&pro=%@&city=%@"
+#define comment @"http://mrobot.pcauto.com.cn/v2/cms/channels/4?pageNo=%ld&pageSize=20"
+#define Buy @"http://mrobot.pcauto.com.cn/v2/cms/channels/3?pageNo=%ld&pageSize=20"
+#define Video @"http://app.api.autohome.com.cn/autov4.7.6/news/videolist-pm2-vt%ld-s20-lastid0.json"
+#define Visit @"http://mrobot.pcauto.com.cn/v2/cms/channels/15?pageNo=%ld&pageSize=20"
+#define Contest @"http://mrobot.pcauto.com.cn/v2/cms/channels/16?pageNo=%ld&pageSize=20"
+#define Now @"http://mrobot.pcauto.com.cn/v2/cms/channels/18?pageNo=%ld&pageSize=20"
+#define searchCar @"http://mrobot.pcauto.com.cn/v3/search/tips?req_enc=utf-8&responseEncoding=utf-8&keyword=%@"
+
+#define searchmyCar @"http://mrobot.pcauto.com.cn/v3/price/modelLibraryHomePage?bid=%ld&type=1"
+
+#define Bridge @"http://app.api.autohome.com.cn/autov4.8.0/club/jingxuantopic-pm2-c198-p%ld-s20.json"
+#define SecOut @"http://app.api.autohome.com.cn/autov4.8.0/club/jingxuantopic-pm2-c113-p%ld-s20.json"
+#define heightSay @"http://app.api.autohome.com.cn/autov4.8.0/club/jingxuantopic-pm2-c118-p%ld-s20.json"
+
+#define Bridgexiang @"http://forum.app.autohome.com.cn/autov4.8.0/forum/club/topiccontent-a2-pm2-v4.8.0-t%@-o0-p1-s20-c1-nt0-fs0-sp0-al0-cw360.json"
+#define tiaojianjieguo @"http://mrobot.pcauto.com.cn/v3/price/search?list=false&ps=%d&pe=%d&pageNo=%ld&pageSize=15&version=2"
+
+#define pinglun @"http://mrobot.pcauto.com.cn/v3/cmt/get_newest_floor?url=%@"
+#define pinpai  @"http://mrobot.pcauto.com.cn/v3/price/modelLibraryHomePage?bid=%@&type=1"
+#define myweather @"http://ku.m.chinanews.com/forapp/api/weather.jsp?location=%@"
+#define giveTestNumber1 @"http://app.api.autohome.com.cn/autov4.8.0/user/SentCheckCode.ashx"
+#define regiseter @"http://i.api.autohome.com.cn/api/Register/index"
+#define mylogin @"http://account.autohome.com.cn/applogin/login"
+#define mycomment @"http://cmt.pcauto.com.cn/action/comment/create_utf8.jsp"
+
+#import "MyControl.h"
+#import "UIImageView+WebCache.h"
+#import "JHRefresh.h"
+#endif
